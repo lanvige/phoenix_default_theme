@@ -1,9 +1,10 @@
+$:.push File.expand_path("../lib", __FILE__)
 require "phoenix/default_theme/version"
 
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
-  s.name        = "phoenix_auth"
-  s.version     = Phoenix::Auth::VERSION
+  s.name        = "phoenix_default_theme"
+  s.version     = Phoenix::DefaultTheme::VERSION
 
   s.author      = 'Lanvige Jiang'
   s.email       = 'lanvige@gmail.com'
